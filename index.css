@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+}
+
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://assets.ccbp.in/frontend/react-js/congrats-card-bg.png");
+  height: 100vh;
+}
+
+.congrats {
+  font-family: "Roboto";
+  font-size: 40px;
+  color: #0f172a;
+}
+
+.card-container {
+  background-color: #cffafe;
+  text-align: center;
+  padding: 10px;
+  width: 80%;
+}
+
+.image {
+  width: 80px;
+  height: 80px;
+}
+
+.name {
+  font-family: "Roboto";
+  font-size: 30px;
+  color: #1e293b;
+}
+
+.college {
+  font-family: "Roboto";
+  font-size: 25px;
+  color: #1e293b;
+}
